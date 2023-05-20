@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
 
+## Linux install
+
+Run `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash` for a nvm repository.
+Run `source ~/.bashrc` for update sources.
+Run `nvm install 18.16.0` a nvm LTS.
+Run `npm install -g @angular/cli` for Angular Command Line Interface (CLI).
+Test tru to run `ng generate component` for a dev server.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
