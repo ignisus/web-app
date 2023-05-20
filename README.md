@@ -14,6 +14,8 @@ Run `nvm install 18.16.0` a nvm LTS.
 Run `npm install -g @angular/cli` for Angular Command Line Interface (CLI).
 Test try to run `ng generate component` for a dev server.
 
+npm start to run server
+
 ## Development server
 
 
