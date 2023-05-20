@@ -1,7 +1,10 @@
-# Ignisus Comunnity App
+<h1 align="center">Ignisus Web</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+<div align="center">
 
+[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://www.w3.org/TR/2014/REC-html5-20141028/) [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/) [![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/javascript)
+
+</div>
 ## Linux install
 
 Run `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash` for a nvm repository.
