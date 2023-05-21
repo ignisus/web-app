@@ -1,9 +1,14 @@
 /* MAIN */
-h1{
+.title {
   text-align: center;
   color: #fff;
 }
-
+section{
+  text-align: center;
+}
+img{
+  width: 400px;
+}
 .content {
   background-color: #222222;
   border-radius: 10px;
