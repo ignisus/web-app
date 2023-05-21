@@ -7,12 +7,12 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
   styleUrls: ['./gaming.component.css']
 })
 export class GamingComponent implements OnInit {
-  htmlFileUrl: SafeResourceUrl;
+  map: SafeResourceUrl = '';
 
   constructor(private sanitizer: DomSanitizer) { }
 
   ngOnInit() {
-    const filePath = 'assets/ruta_del_archivo.html';
-    this.htmlFileUrl = this.sanitizer.bypassSecurityTrustResourceUrl(filePath);
+    const filePath = 'assets/map/';
+    this.map = this.sanitizer.bypassSecurityTrustResourceUrl(filePath);
   }
 }
