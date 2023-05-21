@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { HeaderComponent } from './header/header.component';
+import { GamingComponent } from './gaming/gaming.component';
+import { MarketComponent } from './market/market.component';
+import { ForumComponent } from './forum/forum.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
-    HeaderComponent
+    HeaderComponent,
+    GamingComponent,
+    MarketComponent,
+    ForumComponent
   ],
   imports: [
     BrowserModule,

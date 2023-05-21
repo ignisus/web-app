@@ -1,0 +1,22 @@
+/* MAIN */
+h1{
+  text-align: center;
+  color: #fff;
+}
+
+.content {
+  background-color: #222222;
+  border-radius: 10px;
+  margin: 90px 5% 0px 5%;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+
+  .content {
+      background-color: #222222;
+      border-radius: 10px;
+      margin: 100px auto;
+  }
+
+}

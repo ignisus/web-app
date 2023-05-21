@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: /js/
-Disallow: /standalone/
-Disallow: /img/
-Disallow: /css/
-Disallow: /php/

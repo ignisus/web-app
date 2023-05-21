@@ -40,3 +40,10 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# ignore ALL tiles file of ignisusland map
+map/
+# ignore ALL test web games
+game/
+# ignore ALL php for secure
+#php/db.php

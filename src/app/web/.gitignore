@@ -1,7 +1,0 @@
-# ignore ALL tiles file of ignisusland map
-mapa/ 
-# ignore ALL test web games
-game/ 
-# ignore ALL php for secure
-php/db.php
-
