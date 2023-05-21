@@ -1,0 +1,36 @@
+<div class="login"><a class="login_text" onclick="document.getElementById('id01').style.display='block'">Entrar | Registrarse</a></div>
+
+<div id="id01" class="modal">
+    <form class="modal-content animate" action="/validate" method="post">
+        <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Cerrar">&times;</span>
+            <br><img src="img/ignisus.svg" alt="Avatar" class="loginavatar">
+        </div>
+        <div class="container">
+            <label for="uname"><b>NIF/DNI/NIE/TIE</b></label>
+            <input id="uname" type="text" placeholder="Numero de identificación" name="uname" required>
+
+            <label for="password"><b>Contraseña</b></label>
+            <input id="password" type="password" placeholder="Contraseña" name="password" required>
+
+            <button class="loginbutton" type="submit">Entrar</button>
+            <label>
+                <input type="checkbox" name="remember"> Recuerdame
+                <span class="psw"><a class="login_text" href="https://mail.proton.me">Recordar contraseña</a></span>
+            </label>
+            <br><br>
+        </div>
+    </form>
+</div>
+
+<script>
+    // Login menu.
+    var modal = document.getElementById('id01');
+
+    // close out click.
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
