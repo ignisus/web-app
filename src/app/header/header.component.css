@@ -1,8 +1,4 @@
 /* MAIN */
-h1{
-  text-align: center;
-  color: #fff;
-}
 
 .navbar {
   max-width: 1000px;
@@ -19,13 +15,6 @@ h1{
   background-color: #0F0F0F;
   color: #fff;
   padding: 10px;
-}
-
-.content {
-  background-color: #222222;
-  border-radius: 10px;
-  height: 2000px;
-  margin: 90px 5% 0px 5%;
 }
 
 .logo {
@@ -83,13 +72,6 @@ h1{
   .navbar {
       top: 0px;
       border-radius: 0px;
-  }
-
-  .content {
-      background-color: #222222;
-      border-radius: 10px;
-      height: 2000px;
-      margin: 100px auto;
   }
 
   .menu {
