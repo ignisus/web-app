@@ -15,6 +15,7 @@ Run `npm install -g @angular/cli` for Angular Command Line Interface (CLI).
 Test try to run `ng generate component` for a dev server.
 
 npm start to run server
+compile ng build --configuration=production
 
 ## Development server
 
