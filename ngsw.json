@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1684694344230,
+  "timestamp": 1684696020995,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/index.html",
-        "/main.00ee71268ff5cdef.js",
+        "/main.7e77f2ba7140ac24.js",
         "/manifest.webmanifest",
         "/polyfills.881a4e1258de6a26.js",
         "/runtime.b74d0b05de58f3da.js",
@@ -78,6 +78,7 @@
         "/assets/images/old/steroids.png",
         "/assets/images/old/tux.png",
         "/assets/images/old/windows.png",
+        "/assets/map/index.html",
         "/icomoon.324cb15ae4289361.svg",
         "/icomoon.555946f8ff692cb6.woff",
         "/icomoon.6bbfcacab0a7efaa.ttf"
@@ -137,11 +138,12 @@
     "/assets/images/old/steroids.png": "54b3a9a35b3868b948c5ea6da1b95ce2fcf429bf",
     "/assets/images/old/tux.png": "114928219c48cbc02f830cc33b32b3f668e492d8",
     "/assets/images/old/windows.png": "4adb1481f1d50df29efeef112a257260ff411acf",
+    "/assets/map/index.html": "8ce7ef165bf80b15e8817250fa71f58625715c1e",
     "/icomoon.324cb15ae4289361.svg": "6ec28a4505249c0baa92f9b52cdd19b6c599a198",
     "/icomoon.555946f8ff692cb6.woff": "b5c8e94896aa51a25ceb21e21ebd4858c4eca5a5",
     "/icomoon.6bbfcacab0a7efaa.ttf": "320d38827bb5f38f28454ee9b846a3838445d63c",
-    "/index.html": "0b6e8db9c7529162f547d6175a5036afdb4db4ad",
-    "/main.00ee71268ff5cdef.js": "817155cd6a784cb8ebfcf431d44c7d0654e1799c",
+    "/index.html": "0f003210f8da823f56115b4bfa884f7f617c1ada",
+    "/main.7e77f2ba7140ac24.js": "c6125020bdb867d7017a930603e7d1ff93fa6278",
     "/manifest.webmanifest": "640461c4fc2ce570ee2ca5164807ebf70333e7f5",
     "/polyfills.881a4e1258de6a26.js": "3587ff31830396ecab6cfa68836f91a80a58a376",
     "/runtime.b74d0b05de58f3da.js": "ceeb57cc38efbb6a126d95895476470c6a02dfc1",
