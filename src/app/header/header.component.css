@@ -63,44 +63,52 @@
   color: #FF7700;
 }
 
-.nav-links.show {
-  display: block;
-}
+
 
 /* RESPONSIVE */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .navbar {
-      top: 0px;
-      border-radius: 0px;
+    top: 0px;
+    border-radius: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav-links.show {
+    display: block;
+  }
+
+  .navbar {
+    top: 0px;
+    border-radius: 0px;
   }
 
   .menu {
-      position: fixed;
+    position: fixed;
   }
 
   .nav-links {
-      display: none;
-      position: fixed;
-      left: 0;
+    display: none;
+    position: fixed;
+    left: 0;
   }
 
   .nav-links li {
-      margin: 10px 0 10px 0;
+    margin: 20px 0 15px 0;
   }
 
   .logo {
-      text-align: center;
-      margin-left: 0;
+    text-align: center;
+    margin-left: 0;
   }
 
   .dropdown {
-      display: block;
+    display: block;
   }
 
   .dropdown-btn {
-      float: none;
-      display: block;
-      margin-bottom: 10px;
+    float: none;
+    display: block;
+    margin-bottom: 10px;
   }
 
 }

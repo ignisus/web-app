@@ -8,17 +8,19 @@ h1{
   background-color: #222222;
   border-radius: 10px;
   height: 2000px;
-  margin: 90px 5% 0px 5%;
+  margin: 85px 5% 0px 5%;
 }
 
 /* RESPONSIVE */
+@media screen and (max-width: 1200px) {
+  .content {
+    margin: 75px auto;
+}
+}
 @media screen and (max-width: 768px) {
 
   .content {
-      background-color: #222222;
-      border-radius: 10px;
-      height: 2000px;
-      margin: 80px auto;
+      margin: 75px auto;
   }
 
 
