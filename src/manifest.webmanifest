@@ -1,7 +1,7 @@
 {
   "name": "Ignisus",
   "short_name": "Ignisus",
-  "theme_color": "#f58220",
+  "theme_color": "#00000000",
   "background_color": "#00000000",
   "display": "standalone",
   "scope": "./",

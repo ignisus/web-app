@@ -1,32 +1,114 @@
 /* MAIN */
-.title {
+
+* {
+  color: #ffffff;
   text-align: center;
-  color: #fff;
+  align-items: center;
+  align-self: center;
+  align-content: center;
 }
-section{
-  text-align: center;
-  color: #fff;
-}
-img{
+
+img {
   width: 50%;
 }
+
 .content {
   background-color: #222222;
   border-radius: 10px;
   margin: 85px 5% 0px 5%;
 }
 
+p {
+  color: red;
+}
+
+.title {
+  color: #ffcc00;
+}
+
+h2 {
+  color: #ffcc00;
+}
+
+h3 {
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.paypalme {
+  width: 200px;
+  height: 200px;
+}
+
+.paypalme:hover {
+  opacity: 0.8;
+}
+/* Tabla */
+.price-table {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+}
+
+.price-table table {
+  margin: 0 10% 0 10%;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.price-table th, .price-table td {
+  padding: 8px;
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+
+.price-table th {
+  background-color: #ae1c1c;
+  font-weight: bold;
+}
+
+.price-table td.name {
+  width: 80%;
+}
+
+.price-table td.price {
+  width: 20%;
+  text-align: right;
+}
 /* RESPONSIVE */
 @media screen and (max-width: 1200px) {
   .content {
     margin: 75px auto;
+  }
 }
-}
+
 @media screen and (max-width: 768px) {
 
   .content {
-      margin: 75px auto;
+    margin: 75px auto;
   }
-
+  .price-table table {
+    margin: 0 0% 0 0%;
+    width: 100%;
+    border-collapse: collapse;
+  }
 
 }
