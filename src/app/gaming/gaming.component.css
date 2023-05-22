@@ -5,14 +5,15 @@
 }
 section{
   text-align: center;
+  color: #fff;
 }
 img{
-  width: 400px;
+  width: 50%;
 }
 .content {
   background-color: #222222;
   border-radius: 10px;
-  margin: 90px 5% 0px 5%;
+  margin: 85px 5% 0px 5%;
 }
 
 /* RESPONSIVE */
