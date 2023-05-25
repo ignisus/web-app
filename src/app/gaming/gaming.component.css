@@ -62,6 +62,12 @@ a:hover {
 .paypalme:hover {
   opacity: 0.8;
 }
+
+iframe {
+  width: 70%;
+  height: 600px;
+  border: 0px;
+}
 /* Tabla */
 .price-table {
   font-family: Arial, sans-serif;
@@ -95,13 +101,18 @@ a:hover {
 }
 /* RESPONSIVE */
 @media screen and (max-width: 1200px) {
+  iframe {
+    width: 100%;
+  }
   .content {
     margin: 75px auto;
   }
 }
 
 @media screen and (max-width: 768px) {
-
+  iframe {
+    height: 400px;
+  }
   .content {
     margin: 75px auto;
   }
