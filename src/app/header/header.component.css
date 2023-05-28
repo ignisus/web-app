@@ -42,8 +42,10 @@
 
 .profile img {
   margin-right: 20px;
-  width: 40px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
+  border: 1px solid white;
 }
 
 .dropdown {
@@ -86,6 +88,12 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .profile img {
+    width: 40px;
+    height: 40px;
+  }
+
   .nav-links.show {
     display: block;
     animation: open-menu-mobile 0.5s ease-in-out;

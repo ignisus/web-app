@@ -1,5 +1,5 @@
 /* MAIN */
-h1{
+h1 {
   text-align: center;
   color: #fff;
 }
@@ -7,21 +7,76 @@ h1{
 .content {
   background-color: #222222;
   border-radius: 10px;
-  height: 2000px;
-  margin: 85px 5% 0px 5%;
+  margin: 85px auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px;
+}
+
+.gallery a {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 25px;
+}
+
+.gallery img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery h3 {
+  margin-top: 10px;
+  font-size: 16px;
 }
 
 /* RESPONSIVE */
 @media screen and (max-width: 1200px) {
   .content {
     margin: 75px auto;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .gallery h3 {
+    font-size: 18px;
+  }
 }
-}
+
 @media screen and (max-width: 768px) {
 
   .content {
-      margin: 71px auto;
+    margin: 71px auto;
   }
 
 
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .gallery h3 {
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .gallery h3 {
+    font-size: 14px;
+  }
 }

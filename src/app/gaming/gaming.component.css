@@ -15,7 +15,9 @@ img {
 .content {
   background-color: #222222;
   border-radius: 10px;
-  margin: 85px 5% 0px 5%;
+  margin: 85px auto;
+  width: 100%;
+  max-width: 1200px;
 }
 
 p {
@@ -23,6 +25,7 @@ p {
 }
 
 .title {
+  font-size: xx-large;
   color: #ffcc00;
 }
 
@@ -68,6 +71,7 @@ iframe {
   height: 600px;
   border: 0px;
 }
+
 /* Tabla */
 .price-table {
   font-family: Arial, sans-serif;
@@ -80,7 +84,8 @@ iframe {
   border-collapse: collapse;
 }
 
-.price-table th, .price-table td {
+.price-table th,
+.price-table td {
   padding: 8px;
   border: 1px solid #dddddd;
   text-align: left;
@@ -99,11 +104,13 @@ iframe {
   width: 20%;
   text-align: right;
 }
+
 /* RESPONSIVE */
 @media screen and (max-width: 1200px) {
   iframe {
     width: 100%;
   }
+
   .content {
     margin: 75px auto;
   }
@@ -113,9 +120,11 @@ iframe {
   iframe {
     height: 400px;
   }
+
   .content {
     margin: 75px auto;
   }
+
   .price-table table {
     margin: 0 0% 0 0%;
     width: 100%;
