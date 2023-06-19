@@ -11,11 +11,13 @@
 Run `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash` for a nvm repository.
 Run `source ~/.bashrc` for update sources.
 Run `nvm install 18.16.0` a nvm LTS.
+Run `nvm use 18.16.0` for set nvm.
 Run `npm install -g @angular/cli` for Angular Command Line Interface (CLI).
+Run `npm install -g @angular-devkit/build-angular` for Angular Compiler.
 Test try to run `ng generate component` for a dev server.
 
-npm start to run server
-compile ng build --configuration=production
+`npm start` to run server
+`compile ng build --configuration=production`
 
 ## Development server
 
