@@ -13,6 +13,32 @@
       <br>
       <h1>MARKET</h1><br>
       <h1>EN MANTENIMIENTO</h1><br>
+      <div class="menu">
+        <div class="search-container">
+          <input type="text" [(ngModel)]="searchText" placeholder="Buscar por texto" (keyup)="filterItems()">
+          <button type="button" (click)="searchItems()">Buscar</button>
+        </div>
+
+        <div class="category-container">
+          <button type="button" class="category" [ngClass]="{'active': isCategoryActive('all')}"
+            (click)="filterByCategory('all')">All</button>
+          <button type="button" class="category" [ngClass]="{'active': isCategoryActive('jewelry')}"
+            (click)="filterByCategory('jewelry')">Joyería</button>
+          <button type="button" class="category" [ngClass]="{'active': isCategoryActive('clothing')}"
+            (click)="filterByCategory('clothing')">Ropa</button>
+          <button type="button" class="category" [ngClass]="{'active': isCategoryActive('games')}"
+            (click)="filterByCategory('games')">Juegos</button>
+          <button type="button" class="category" [ngClass]="{'active': isCategoryActive('food')}"
+            (click)="filterByCategory('food')">Alimentación</button>
+          <button type="button" class="category" [ngClass]="{'active': isCategoryActive('+18')}"
+            (click)="filterByCategory('+18')">+18</button>
+        </div>
+
+        <div class="items-container">
+          <div *ngFor="let item of filteredItems" class="item" (click)="redirectToUrl(item.url)">{{ item.name }}</div>
+        </div>
+      </div>
+
 
     </section>
 
