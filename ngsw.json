@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1687357991919,
+  "timestamp": 1687617543278,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/index.html",
-        "/main.2b08d9a02dcbdfb0.js",
+        "/main.3c630b503414af62.js",
         "/manifest.webmanifest",
         "/polyfills.881a4e1258de6a26.js",
         "/runtime.b74d0b05de58f3da.js",
@@ -48,6 +48,7 @@
         "/assets/images/discord.jpg",
         "/assets/images/github.png",
         "/assets/images/map.jpg",
+        "/assets/images/minecraftmap.png",
         "/assets/images/old/1discord.png",
         "/assets/images/old/2discord.png",
         "/assets/images/old/3discord.png",
@@ -112,6 +113,7 @@
     "/assets/images/discord.jpg": "a2bb98611caf91b27dd941b301cf2f5c9d6531a7",
     "/assets/images/github.png": "997935dcac6b192191ad022492fcb34df8f54dcc",
     "/assets/images/map.jpg": "e66403d3c0b363542a822dd4fea7f17f4ae8480d",
+    "/assets/images/minecraftmap.png": "43e9250bb62e01863ed922ef07256f4a2cdff92c",
     "/assets/images/old/1discord.png": "2230204dbb1acaf82089cbb10126d376b12fa19b",
     "/assets/images/old/2discord.png": "8c34541920b2867658f404c8c25ebcd0c3573c4e",
     "/assets/images/old/3discord.png": "fb104680fe8869bfef93d00250404dffa91ab80c",
@@ -150,8 +152,8 @@
     "/icomoon.324cb15ae4289361.svg": "6ec28a4505249c0baa92f9b52cdd19b6c599a198",
     "/icomoon.555946f8ff692cb6.woff": "b5c8e94896aa51a25ceb21e21ebd4858c4eca5a5",
     "/icomoon.6bbfcacab0a7efaa.ttf": "320d38827bb5f38f28454ee9b846a3838445d63c",
-    "/index.html": "4ebb6c400713d6a16a2ba094602dac66e6c0935d",
-    "/main.2b08d9a02dcbdfb0.js": "05f46b916b2c5d232ea493ffc25e5e0bc2512ef1",
+    "/index.html": "704bf7430d7da6a9bdb1fc1709274c5594bbc3b5",
+    "/main.3c630b503414af62.js": "64d613a033b8e14411c7831678593d3599b60baa",
     "/manifest.webmanifest": "d23f4a6e3fde73abf7b66f3faf95527ee8ef2002",
     "/polyfills.881a4e1258de6a26.js": "3587ff31830396ecab6cfa68836f91a80a58a376",
     "/runtime.b74d0b05de58f3da.js": "ceeb57cc38efbb6a126d95895476470c6a02dfc1",
