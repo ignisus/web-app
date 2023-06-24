@@ -13,9 +13,7 @@ h1 {
 }
 
 .menu {
-  background-color: #f5f5f5;
-  border-radius: 5px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .search-container {
@@ -25,6 +23,7 @@ h1 {
 }
 
 .search-container input {
+  min-width: 10px;
   flex: 1;
   padding: 8px;
   font-size: 16px;
@@ -35,11 +34,15 @@ h1 {
 .search-container button {
   margin-left: 10px;
   padding: 8px 12px;
-  background-color: #4caf50;
+  background-color: #0F0F0F;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.search-container button:hover{
+  background-color: #FF7700;
 }
 
 .category-container {
@@ -48,16 +51,18 @@ h1 {
 
 .category {
   padding: 8px 12px;
-  background-color: #2196f3;
+  background-color: #0F0F0F;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   margin-right: 5px;
 }
-
+.category:hover{
+  background-color: #FF7700;
+}
 .category.active {
-  background-color: #f44336;
+  background-color: #FF7700;
 }
 
 .items-container {
@@ -67,14 +72,15 @@ h1 {
 }
 
 .item {
-  background-color: #fff;
+  color: #fff;
+  background-color: #0F0F0F;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
 .item:hover {
-  background-color: #f44336;
+  background-color: #FF7700;
 }
 
 
